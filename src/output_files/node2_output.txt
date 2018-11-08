@@ -1,0 +1,61 @@
+My IP: 172.19.0.3
+My initial routing table: 
+172.19.0.3	172.19.0.3	0	90
+172.19.0.2	172.19.0.2	1	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	null		16	90
+172.19.0.6	null		16	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826321 seconds and 353783 microseconds. 
+
+Assigning default ttl to 172.19.0.2
+Routing table received from 172.19.0.2 as: 
+172.19.0.2	172.19.0.2	0	90
+172.19.0.3	172.19.0.3	1	90
+172.19.0.4	null		16	90
+172.19.0.5	null		16	90
+172.19.0.6	null		16	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 227239 microseconds. 
+
+Sending my routing table to neighbor 172.19.0.2
+Sending my routing table to neighbor 172.19.0.4
+Sending my routing table to neighbor 172.19.0.7
+Decrementing ttl for neighboring nodes...
+Updated my routing table to: 
+172.19.0.3	172.19.0.3	0	90
+172.19.0.2	172.19.0.2	1	60
+172.19.0.4	172.19.0.4	1	60
+172.19.0.5	null		16	90
+172.19.0.6	null		16	90
+172.19.0.7	172.19.0.7	1	60
+Current time is: 1544826336 seconds and 323027 microseconds. 
+
+Assigning default ttl to 172.19.0.4
+Routing table received from 172.19.0.4 as: 
+172.19.0.4	172.19.0.4	0	90
+172.19.0.2	172.19.0.3	16	90
+172.19.0.3	172.19.0.3	1	90
+172.19.0.5	172.19.0.5	1	90
+172.19.0.6	172.19.0.6	1	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 427101 microseconds. 
+
+Updated my routing table to: 
+172.19.0.3	172.19.0.3	0	90
+172.19.0.2	172.19.0.2	1	60
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.4	2	90
+172.19.0.6	null		16	90
+172.19.0.7	172.19.0.7	1	60
+Current time is: 1544826336 seconds and 427163 microseconds. 
+
+Updated my routing table to: 
+172.19.0.3	172.19.0.3	0	90
+172.19.0.2	172.19.0.2	1	60
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.4	2	90
+172.19.0.6	172.19.0.4	2	90
+172.19.0.7	172.19.0.7	1	60
+Current time is: 1544826336 seconds and 427214 microseconds. 
+

@@ -1,0 +1,5 @@
+node1 no
+node2 yes
+node4 yes
+node5 yes
+node6 yes
