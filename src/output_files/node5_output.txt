@@ -1,0 +1,80 @@
+My IP: 172.19.0.6
+My initial routing table: 
+172.19.0.6	172.19.0.6	0	90
+172.19.0.2	null		16	90
+172.19.0.3	null		16	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.5	1	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826321 seconds and 686053 microseconds. 
+
+Assigning default ttl to 172.19.0.4
+Routing table received from 172.19.0.4 as: 
+172.19.0.4	172.19.0.4	0	90
+172.19.0.2	172.19.0.3	2	90
+172.19.0.3	172.19.0.3	1	90
+172.19.0.5	172.19.0.5	1	90
+172.19.0.6	172.19.0.6	1	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 427497 microseconds. 
+
+Updated my routing table to: 
+172.19.0.6	172.19.0.6	0	90
+172.19.0.2	172.19.0.4	3	90
+172.19.0.3	null		16	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.5	1	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 427577 microseconds. 
+
+Updated my routing table to: 
+172.19.0.6	172.19.0.6	0	90
+172.19.0.2	172.19.0.4	3	90
+172.19.0.3	172.19.0.4	2	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.5	1	90
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 427614 microseconds. 
+
+Assigning default ttl to 172.19.0.5
+Routing table received from 172.19.0.5 as: 
+172.19.0.5	172.19.0.5	0	90
+172.19.0.2	172.19.0.4	3	90
+172.19.0.3	172.19.0.4	2	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.6	172.19.0.6	1	90
+172.19.0.7	172.19.0.4	2	90
+Current time is: 1544826336 seconds and 530890 microseconds. 
+
+Sending my routing table to neighbor 172.19.0.4
+Sending my routing table to neighbor 172.19.0.5
+Sending my routing table to neighbor 172.19.0.7
+Decrementing ttl for neighboring nodes...
+Updated my routing table to: 
+172.19.0.6	172.19.0.6	0	90
+172.19.0.2	172.19.0.4	3	90
+172.19.0.3	172.19.0.4	2	90
+172.19.0.4	172.19.0.4	1	60
+172.19.0.5	172.19.0.5	1	60
+172.19.0.7	172.19.0.7	1	60
+Current time is: 1544826336 seconds and 657891 microseconds. 
+
+Assigning default ttl to 172.19.0.7
+Routing table received from 172.19.0.7 as: 
+172.19.0.7	172.19.0.7	0	90
+172.19.0.2	172.19.0.2	1	90
+172.19.0.3	172.19.0.2	2	90
+172.19.0.4	172.19.0.4	1	90
+172.19.0.5	172.19.0.4	2	90
+172.19.0.6	172.19.0.6	1	90
+Current time is: 1544826336 seconds and 774054 microseconds. 
+
+Updated my routing table to: 
+172.19.0.6	172.19.0.6	0	90
+172.19.0.2	172.19.0.7	2	90
+172.19.0.3	172.19.0.4	2	90
+172.19.0.4	172.19.0.4	1	60
+172.19.0.5	172.19.0.5	1	60
+172.19.0.7	172.19.0.7	1	90
+Current time is: 1544826336 seconds and 774081 microseconds. 
+
